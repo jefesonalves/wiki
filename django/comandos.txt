@@ -1,0 +1,5 @@
+#Criar ambiente virtual com venv
+
+#Criar projeto
+
+#Criar app
