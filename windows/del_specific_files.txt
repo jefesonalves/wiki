@@ -1,0 +1,5 @@
+del /s /q "diretório"*."extensão do arquivo" >log.log
+
+diretório: local a ser verificado a extensão específica, exemplo: c:\
+extensão do arquivo: extensão de arquivo a ser deletada, exemplo: .jpeg
+
