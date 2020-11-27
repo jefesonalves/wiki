@@ -1,0 +1,13 @@
+diskpart
+list disk
+select disk (número do disco exibido)
+list partition
+select partition (número da partição exibida)
+assign letter=x
+exit
+x:
+cd efi
+dir
+rd (distribuição linux) /s
+exit
+reinicie o computador

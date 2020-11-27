@@ -1,0 +1,3 @@
+# Comando para descobrir se o host ou a rede está com a vulnerabilidade do EternalBlue
+nmap -sC -p445 --open --max-hostgroup 3 --script smb-vuln-ms17-010.nse 192.168.1.0/24
+nmap -sV -script=vulscan.nse 192.168.1.1 -p80
