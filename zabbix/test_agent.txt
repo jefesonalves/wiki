@@ -1,0 +1,1 @@
+snmpwalk -v2c -c "nome da comunidade" "ip"
