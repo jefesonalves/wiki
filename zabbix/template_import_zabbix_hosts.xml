@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.4</version>
+    <date>2021-05-11T16:52:21Z</date>
+    <groups>
+        <group>
+            <name>Template/Ruckus</name>
+        </group>
+        <group>
+            <name>Templates/Network devices</name>
+        </group>
+    </groups>
+    <hosts>        
+        <host>
+            <host>nome_do_host</host>
+            <name>descrição_do_host</name>
+            <templates>
+                <template>
+                    <name>nome_do_template</name>
+                </template>
+                <template>
+                    <name>nome_do_segundo_template</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>nome_do_grupo</name>
+                </group>
+                <group>
+                    <name>nome_do_grupo</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <type>SNMP</type>
+                    <ip>ip_do_equipamento</ip>
+                    <port>161</port>
+                    <interface_ref>nome_da_interface</interface_ref>
+                </interface>
+            </interfaces>
+            <macros>
+                <macro>
+                    <macro>{$SNMP_COMMUNITY}</macro>
+                    <value>nome_da_comunidade_snmp</value>
+                </macro>
+            </macros>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+    </hosts>
+</zabbix_export>
