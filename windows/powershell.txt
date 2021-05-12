@@ -1,0 +1,2 @@
+# Verificar pacotes "dropados" no firewall do windows em tempo real. Comando semelhante ao tail -f do Linux.
+Get-Content C:\windows\System32\LogFiles\Firewall\pfirewall.log -wait | where { $_ -match "DROP" }
