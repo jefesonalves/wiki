@@ -1,0 +1,2 @@
+# Extrair termo específico da coluna
+if Text.Contains([nome da coluna],"termo") = true then "termo a ser substituído" else "null"
