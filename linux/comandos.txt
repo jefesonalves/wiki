@@ -1,0 +1,2 @@
+#copiar uma ISO ou IMG para um device
+dd if="nome da impagem com a extensão" of=/dev/"dispositivo" (caminho do device)
