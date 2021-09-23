@@ -1,6 +1,9 @@
-#copiar uma ISO ou IMG para um device
+# Copiar uma ISO ou IMG para um device
 dd if="nome da impagem com a extensão" of=/dev/"dispositivo" (caminho do device)
 
-#Reparar inicialização
+# Reparar inicialização
 blkid
 fsck /dev/sda2 -y
+
+# Mudar a métrica da rota default
+route add -net default gw 192.168.1.1 netmask 0.0.0.0 dev enp0s3 metric 1
