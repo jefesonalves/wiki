@@ -1,0 +1,2 @@
+#Verificar se o serviço NTP está funcionando
+w32tm /stripchart /computer:time.windows.com /dataonly /samples:5
