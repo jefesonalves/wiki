@@ -1,0 +1,10 @@
+# Regedit
+Chave: Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
+ClearPageFileAtShutdown: mudar valor para 0
+
+Chave: Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control
+WaitToKillServiceTimeout: mudar valor para 2000
+
+# CMD
+sfc /scannow
+
