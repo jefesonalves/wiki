@@ -1,0 +1,2 @@
+# Criar regra de saída para a porta 80 e 443:
+netsh advfirewall firewall add rule name= "portas_internet_tcp" dir=out action=allow protocol=TCP localport=80,443
